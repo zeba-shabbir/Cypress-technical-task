@@ -78,9 +78,9 @@ cy.get('div.posting-headline>h2').invoke('text').should('include','Test')
   
  cy.get('#btn-submit').click(true)
 
-//  object.bypasscaptch()
-//  cy.wait(5000)
-//  object.verifyResponse()
+  object.bypasscaptch()
+ cy.wait(5000)
+ object.verifyResponse()
 
   })
 
