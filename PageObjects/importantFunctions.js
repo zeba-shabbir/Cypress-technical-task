@@ -2,6 +2,8 @@
 
 
 class ImportantFunctions{
+    
+    
     loadMore = () => {
         cy.get(".more-link.d-inline-flex.align-items-center").then(($el) =>{
             if (Cypress.dom.isVisible($el))
@@ -44,7 +46,7 @@ const puppeteer = require('puppeteer-extra')
 const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha')
 
 puppeteer.use(RecaptchaPlugin({
-      provider: { id: '2captcha', token: 'e2b20c6dfa506b5ca8d8d2c7035434b5' }
+      provider: { id: '2captcha', token: 'e2b20c7dha586b5ca8d8d2c7035434b5' }
      
 })
 );
